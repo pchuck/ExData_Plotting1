@@ -1,5 +1,7 @@
 #! /usr/bin/env Rscript
 ##
+##   generate global active power histogram
+##
 
 ## read the data file
 power = read.csv("data/household_power_consumption.txt", header=TRUE, sep=";", stringsAsFactors=FALSE)
